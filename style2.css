@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+
+}
+body{
+    background-color: black;
+}
+section{
+    
+    padding: 8px 10px;
+    background-size: center;
+    background-position: center;
+    background-color: rgb(255, 238, 0);
+    
+
+}
+footer{
+    padding: 8px 0;
+    background-size: center;
+
+}
+h3{
+    font-size: 20px;
+}
+p{
+    color: black;
+}
+
+.container{
+    max-width: 100px;
+    margin: 0 30px;
+    padding: 0 5%;
+    height: auto;
+}
+
+.container2{
+    min-height: calc(100vh - 40px); /* Leva em consideração a altura do cabeçalho e do rodapé */
+    padding-bottom: 40px; /* Leva em consideração a altura do rodapé */
+    overflow: auto; /* Permite a rolagem do conteúdo caso exceda o tamanho da tela */
+}
+.btn2{
+    border: solid 2px rgb(0, 0, 0);
+    margin-bottom:0%;
+    border-radius:5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 123, 0);
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    bottom: 0;
+    
+}
+.btn2:hover{
+    background-color: rgb(255, 166, 0);
+    color: white;
+    transform: scale(1.5)
+}
+
+header{
+        background-color:  rgb(255, 238, 0);
+        text-align: center;
+        
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+nav a{
+    color: none;
+    text-transform: uppercase;
+    font-size: large;
+    display: 30px;    
+}
+
+
+.banner{
+    display:block;
+    justify-content: center;
+
+}
+
+.banner-text{
+    display:auto;
+    margin: 8px;
+    text-align: center;
+    background-attachment: fixed;
+    background: fixed;
+}
+
+.banner-text h1{
+    font-size: 60px;
+    color: rgb(0, 0, 0);    
+}
+
+
+section div h1{
+    font-weight: bolder;
+
+} 
+section div p1{
+    padding: auto;
+    font-size: 20px;
+}
+section div p2{
+    padding: auto;
+    font-size: 20px;
+
+}
+
+main2{
+    background-color: yellow;
+
+}
+.conteudo-left0{
+    border: solid 5px rgb(0, 0, 0);
+    border-radius:5px;
+    height:auto;
+    float: left;
+   }
+   .conteudo-left1{
+    border: none 5px;
+    border-radius:5px;
+    width:20px;
+    float: left;
+   }
+
+.rodape{
+    bottom: auto;
+    text-align: center;
+    background-color:  rgb(255, 238, 0);
+}

@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+section{    
+    padding: 8px 10px;
+    background-size: center;
+    background-position: center;
+    background-color: rgb(255, 238, 0);
+}
+header{
+    background-color:  rgb(255, 238, 0);
+    text-align: center;
+}
+.container{
+    max-width: 100px;
+    margin: 0 30px;
+    padding: 0 5%;
+    height: auto;
+}
+header div nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+footer{
+    padding: 8px 0;
+    background-size: center;
+}
+.btn2{
+    border: solid 2px rgb(0, 0, 0);
+    margin-bottom:0%;
+    border-radius:5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 123, 0);
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    bottom: 0;
+}
+.btn2:hover{
+    background-color: rgb(255, 166, 0);
+    color: white;
+    transform: scale(1.5)
+}
+
+.container3{
+    
+    
+    width: auto;
+    margin: 0 auto;
+    height: auto;
+}
+
+main{ 
+    margin: 0 30px;
+    display: flex;
+
+ 
+}
+
+section{
+    padding: 8px 10px;
+    background-color: yellow;
+}
+
+section section h1{
+    padding-top: 2%;
+    text-align: center;
+    position: 50%;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+        
+}
+section section h2{
+    page-break-after: auto;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+        
+}
+.banner-text0{
+    border: none;
+    border-radius:5px;
+    height:auto;
+    float: left;
+}
+.banner-text1 {
+    border: solid 5px rgb(0, 0, 0);
+    border-radius:5px;   
+    text-align: center;
+    display: flex;
+    width: fit-content;
+    height: 50% ;
+   
+}   
+
+     
+.rodape{
+    bottom: auto;
+    text-align: center;
+    background-color:  rgb(255, 238, 0);
+}
